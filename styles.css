@@ -133,19 +133,19 @@ body.loaded {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px; /* আইকনের মধ্যে দূরত্ব */
+    gap: 5px;
 }
 
 .social-icons a {
-    font-size: 20px; /* আইকনের সাইজ */
-    color: #333; /* ডিফল্ট কালার */
+    font-size: 20px;
+    color: #333; 
     text-decoration: none;
     transition: color 0.3s, transform 0.3s; /* হোভার ইফেক্ট */
 }
 
 .social-icons a:hover {
-    color: #e63946; /* হোভার কালার */
-    transform: scale(1.2); /* হোভার সাইজ */
+    color: #e63946; 
+    transform: scale(1.2);
 }
 
 /* Section Styling */
@@ -197,24 +197,24 @@ body.loaded {
     .contact-box,
     #message,
     #listen {
-        width: 90%;           /* মোবাইলের জন্য প্রস্থ ৯০% */
-        max-width: 350px;     /* সর্বাধিক প্রস্থ ৩৫০ পিক্সেল */
-        margin: 15px auto;    /* সেন্টারে ফাঁকা জায়গা */
-        padding: 20px;        /* মোবাইলে কমফোর্টেবল প্যাডিং */
+        width: 90%;         
+        max-width: 350px;     
+        margin: 15px auto;    
+        padding: 20px;        
     }
 
     /* Music Section Styling */
     iframe {
         border-radius: 15px;
-        width: 90%;           /* মোবাইলের জন্য প্রস্থ ৯০% */
-        max-width: 350px;     /* সর্বাধিক প্রস্থ ৩৫০ পিক্সেল */
-        margin-bottom: 20px;  /* নিচের দিকে ফাঁকা */
+        width: 90%;           
+        max-width: 350px;    
+        margin-bottom: 20px;  
     }
 }
 
 /* Books Section Styling */
 #books {
-    text-align: center; /* টেক্সট এবং উপাদানগুলো সেন্টারে বসানো */
+    text-align: center;
 }
 
 .book-box {
@@ -228,43 +228,43 @@ body.loaded {
 }
 
 .book-box img {
-    max-width: 100%; /* ছবির প্রস্থ ১০০% এর মধ্যে সীমাবদ্ধ */
-    height: auto; /* উচ্চতা স্বয়ংক্রিয়ভাবে সমন্বয় হবে */
-    border-radius: 10px; /* ছবির কোণ গোলাকার হবে */
-    margin-bottom: 15px; /* ছবির নিচে ফাঁকা জায়গা */
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 15px; 
 }
 
 .book-box p {
     font-size: 16px;
     color: #fff;
     line-height: 1.5;
-    margin-bottom: 15px; /* প্যারাগ্রাফের নিচে ফাঁকা জায়গা */
+    margin-bottom: 15px; 
 }
 
 /* Button Styling for Books Section */
 .book-btn {
     display: inline-block;
-    background-color: #00ff00; /* গ্রীন কালার */
+    background-color: #FF8C00; 
     color: white;
     padding: 10px 20px;
     font-size: 18px;
     text-align: center;
     border-radius: 5px;
-    text-decoration: none; /* লিংকের আন্ডারলাইন সরানো */
+    text-decoration: none; 
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .book-btn:hover {
-    background-color: #009900; /* গা dark ় গ্রীন কালার */
-    transform: scale(1.05); /* বাটনের আকার একটু বড় হবে */
+    background-color: #009900; 
+    transform: scale(1.05); 
 }
 
 /* Music Section Styling */
 iframe {
     border-radius: 15px;
-    width: 90%;           /* মোবাইলের জন্য প্রস্থ ৯০% */
-    max-width: 350px;     /* সর্বাধিক প্রস্থ ৩৫০ পিক্সেল */
-    margin-bottom: 20px;  /* নিচের দিকে ফাঁকা */
+    width: 90%;           
+    max-width: 350px;     
+    margin-bottom: 20px;  
 }
 
 /* Form Styling */
